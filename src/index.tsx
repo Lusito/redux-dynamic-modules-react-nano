@@ -14,7 +14,7 @@ export interface DynamicModuleLoaderProps {
  * On unmount, they will be unregistered
  */
 export const DynamicModuleLoader = ({ modules, children }: PropsWithChildren<DynamicModuleLoaderProps>) => {
-    const store = useStore() as IModuleStore<{}>;
+    const store = useStore() as IModuleStore<unknown>;
     const [active, setActive] = useState(false);
     useEffect(() => {
         const added = store.addModules(modules);
