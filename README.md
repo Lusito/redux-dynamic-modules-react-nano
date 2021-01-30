@@ -1,4 +1,8 @@
-# redux-dynamic-modules-react-nano
+# Deprecated
+
+**WARNING:** This project has moved to [@react-nano/redux-dynamic-modules](https://github.com/lusito/react-nano)
+
+## redux-dynamic-modules-react-nano
 
 [![Minified + gzipped size](https://badgen.net/bundlephobia/minzip/redux-dynamic-modules-react-nano)](https://www.npmjs.com/package/redux-dynamic-modules-react-nano)
 [![NPM version](https://badgen.net/npm/v/redux-dynamic-modules-react-nano)](https://www.npmjs.com/package/redux-dynamic-modules-react-nano)
